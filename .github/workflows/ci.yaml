@@ -7,11 +7,7 @@ on:
         required: false
         default: ''
   pull_request:
-    branches: [ master ]
   push:
-    branches: [ master ]
-    #paths:
-    #  - '*.js*'
 env:
   NODE_VERSION: 16.x
 jobs:

@@ -1,4 +1,4 @@
-# jest-testing
+# jest-testing [![CI](https://github.com/daggerok/jest-testing/actions/workflows/ci.yaml/badge.svg)](https://github.com/daggerok/jest-testing/actions/workflows/ci.yaml)
 Testing with Jest
 
 ## From scratch
