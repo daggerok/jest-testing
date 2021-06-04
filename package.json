@@ -1,8 +1,8 @@
 {
   "version": "0.0.0",
   "scripts": {
-    "dev": "npm t -- --watchAll --verbose --coverage src",
-    "test": "jest"
+    "dev": "npm t -- --watchAll --verbose --coverage",
+    "test": "jest src"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "7.14.0",
