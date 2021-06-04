@@ -1,0 +1,12 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm t -- --watchAll --verbose --coverage",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "26.0.23",
+    "@types/node": "15.12.1",
+    "jest": "27.0.4"
+  }
+}
