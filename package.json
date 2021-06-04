@@ -1,7 +1,7 @@
 {
   "version": "0.0.0",
   "scripts": {
-    "dev": "npm t -- --watchAll --verbose --coverage",
+    "dev": "npm t -- --watchAll --verbose --coverage src",
     "test": "jest"
   },
   "devDependencies": {
