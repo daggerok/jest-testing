@@ -1,20 +1,7 @@
 # jest-testing [![CI](https://github.com/daggerok/jest-testing/actions/workflows/ci.yaml/badge.svg)](https://github.com/daggerok/jest-testing/actions/workflows/ci.yaml)
 Testing with Jest
 
-## From scratch
-
-### degit
-
 ```bash
-npx degit daggerok/jest-testing#main jest-testing 
-```
-
-### @vitejs/app
-
-```bash
-npm init @vitejs/app jest-testing -- --template vanilla
-cd jest-testing ; rm -rf favicon.svg index.html main.js style.css
-npm i -ED jest @types/jest @types/node
-#vi package.json...
-npm run test
+npx degit daggerok/jest-testing#main jest-testing && cd $_
+npm i -E ; npm run dev
 ```
